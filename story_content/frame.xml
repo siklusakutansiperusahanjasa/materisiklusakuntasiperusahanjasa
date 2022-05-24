@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001100101" font="Open Sans" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100101" font="Open Sans" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npxnabnsnfns00001100101" font="Open Sans" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbnsnfns00001100101" font="Open Sans" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="pxabnsnfns00001100100" font="Open Sans" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Untitled1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001100101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001100101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.63cuWaMHKu5" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63cuWaMHKu5.6oCisW83AIB" displaytext="Tampilan Awal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5XIBv5qK8c8" displaytext="Menu Utama" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5wAKHoeKPUj" displaytext="KD dan KI" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5ys1uHckvoa" displaytext="Peta Konsep" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5nkh893B58d" displaytext="Pendahuluan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6OZSrmJTjaH" displaytext="Pendahuluan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6SIt75BEP13" displaytext="Petunjuk Penggunaan Modul" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5c2NikMXxM4" displaytext="Pendahuluan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6Ox5Z8596vx" displaytext="Biografi" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.67pQcqbsCfr" displaytext="Glosarium" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5j1fqqkfN6k" displaytext="Materi Pokok Siklus Akuntansi Perusahaan Jasa" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6N3fDYsfGpO" displaytext="Tahap Pencatatan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6qD7pYo6LhO" displaytext="Karakteristik Perusahaan Jasa" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6IDYJYIAJ7K" displaytext="Berikut ini yang termasuk contoh perusahaan jasa……." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5vYqVDYtYDp" displaytext="Karakteristik Perusahaan Jasa" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5VIjATgtf5S" displaytext="Perusahaan jasa menyediakan produk tergantung pada siapa yang menyajikan dan kapan barang tersebut disajikan. Hal ini menandakan perushaan jasa memiliki karakteristik….." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5caOTsOLt30" displaytext="Mekanisme Debet dan Kredit" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6qiWsvMOUiL" displaytext="Mekanisme Debet dan Kredit" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.67H7YxLIEVQ" displaytext="Mekanisme Debet dan Kredit" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6pZbWm5KBTM" displaytext="Berdasarkan akun saldo normal, sisi debit dipergunakan untuk mencatat….." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5l07OdXIYLt" displaytext="Jurnal Umum" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5dA4sQ9WffN" displaytext="Fungsi Jurnal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6Tx0ryGhHHp" displaytext="Fungsi Jurnal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6mw8dFstRy4" displaytext="Jurnal yang digunakan sebagai alat mencatat bagi segala jenis transaksi keuangan perususahaan dalam suatu periode tertentu adalah……" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5c8zzv2b4Nx" displaytext="Bentuk Jurnal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5rcqIrF6iuZ" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6MzkLVoHBAg" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5ru8NkY4YFT" displaytext="Pembahasan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6gUpHalhyuD" displaytext="Pembahasan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6NvMeq18lAH" displaytext="Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6g0MN2hLsbF" displaytext="Bentuk-bentuk Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6OF2jrPVU8s" displaytext="Bentuk-bentuk Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6dz0BUvFUm5" displaytext="Bentuk-bentuk Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.61uwHUNCKUt" displaytext="Bentuk-bentuk Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6YRFTdGIRGV" displaytext="Langkah Memposting Buku Besar" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5s0HUo4yLLw" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6KfqHPMPP4l" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6fTCczEo5N8" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6ZgqQkOfIDO" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6BUjx1FDt59" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.63MyQqTzKSv" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5tl7IC19uOY" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.69KewHi09fn" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6G70lTxyR74" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6VZF4fmAt8n" displaytext="Contoh Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5uwzHYC9chk" displaytext="Rangkuman" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6rKqCHMZegv" displaytext="Rangkuman" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5uA1XZ2sif4" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5beMdvo3C6j" displaytext="Penugasan Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5vWrdcMzNTI" displaytext="Penugasan Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5n1jCOkEMGh" displaytext="Latihan Soal" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6SXPX6T0EZB" displaytext="1. Kolom referensi (Ref) pada buku jurnal dan buku besar ketika dilakukan posting diisi dengan...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5tHHHICShFt" displaytext="2. Sumber data pencatatan buku besar adalah ..." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6Eo8nnrSF8B" displaytext="3. Jurnal adalah buku untuk mencatat ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6EAuDT0Te4c" displaytext="4. Ny. Elva menyetor uangnya untuk mendirikan perusahaan jasa Salon CANTIK sebesar Rp50.000.000,00. Jurnal dari transaksi tersebut adalah ....&#xD;" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6k7JIeAnavf" displaytext="5. Dibayar beban listrik sebesar Rp500.000,00. Jurnal yang harus dibuat ialah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6AmNpK71KuG" displaytext="6. Golongan akun yang dicatat dalam neraca saldo adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5xy5aLygpRP" displaytext="7. Sumber pencatatan neraca saldo ialah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6omljm99PU0" displaytext="8. Jurnal penyesuaian untuk menyesuaikan beban gaji yang belum dibayar sebesar Rp2.700.000,00 pada akhir periode adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6dsxxbHkG8J" displaytext="9. Saldo akun iklan dibayar di muka sebesar Rp900.000, jumlah sebesar itu dibayarkan kepada stasiun radio swasta untuk 10 kali siaran. Sampai akhir periode baru disiarkan 6 kali, maka jurnal penyesuaiannya adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6JxDya3JYIZ" displaytext="10. Pada tanggal 1 Juni 2019 persewaan mobil CEPAT menerima pendapatan jasa untuk masa satu tahun sebesar Rp30.000.000,00. Jurnal penyesuaian yang dibuat pada tanggal 31 Desember 2019 apabila dicatat sebagai pendapatan adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5uAYNRxaIqH" displaytext="11. Tujuan penyusunan kertas kerja adalah untuk memudahkan dalam ..." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6HHxqTY6FA3" displaytext="12. Kolom neraca saldo disesuaikan dalam kertas kerja berisi ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5pd0oyFQw6w" displaytext="13. Data pada kolom neraca saldo perlengkapan sebesar Rp670.000,00 (D) dan di kolom penyesuaian sebesar Rp200.000,00 (K) maka di kolom neraca saldo disesuaikan perlengkapan akan tertulis ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5wi2jww0254" displaytext="14. Berikut akun-akun yang ada di kolom Laba Rugi pada Kertas Kerja ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6A3tXxwoJRw" displaytext="15. Kolom Laporan Posisi Keuangan dalam kertas kerja berisi akun-akun ..." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6HKO7FSDzw9" displaytext="16. Jika dalam periode yang sama total aset meningkat Rp32.000.000,00 dan total liabilitas meningkat Rp12.000.000,00. Jumlah ekuitas pemilik dalam periode tersebut adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5areIhxq9PX" displaytext="17. Dalam suatu laporan keuangan awal bulan diketahui data sebagai berikut: Aset lancar Rp5.255.000,00, Aset tetap Rp57.500.000,00, Ekuitas Rp55.500.000,00. Maka besarnya liabilitas adalah ....&#xD;" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5Y7VJAwmFu1" displaytext="18. Unsur-unsur laporan keuangan yang berkaitan langsung dengan pengukuran kinerja keuangan perusahaan adalah ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6GOU8AJDLjL" displaytext="19. Pendapatan perusahaan Rp20.000.000,00 Beban usaha Rp7.000.000,00. Prive Rp3.000.000,00 jika ekuitas awal Rp55.000.000,00 maka ekuitas akhir adalah ....&#xD;" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5hGvm2oAFd8" displaytext="20. Pada kolom laba rugi di dalam kertas kerja menunjukkan saldo (D) Rp15.000.000,00 dan saldo (K) Rp20.000.000,00. Dari data tersebut menunjukkan bahwa perusahaan tersebut mengalami ...." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5lsOyBT8STq" displaytext="Tahap Pengiktisaran" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5vkhMuXL6oD" displaytext="Neraca Saldo" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6QdNzPz1na2" displaytext="Berikut ini merupakan pengertian neraca saldo…" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5pp9LYkI4sW" displaytext="Langkah Menyusun Neraca Saldo" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5VRs1TKAkLS" displaytext="Langkah Menyusun Neraca Saldo" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5XMMZi43Za0" displaytext="Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6hfXn6al7tr" displaytext="Pengertian Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.63u6k4uDYZ8" displaytext="Tujuan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6l8dXEbQAzw" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5yogvInoGkJ" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5YRbdIgRMDb" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.63RrRcgI9rC" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5cfS2Mg8sRZ" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6cTJJK6j5qF" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6itiRtLpTCa" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6F49prBxoWZ" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6HW69z1dIl4" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5jmhBll50HR" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6bOZ0rGiw6m" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5wzXcnnungo" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5nnyDjCsdHS" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5q2Qa7OgJ5g" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5gm9M8gEfL2" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5w4cMnhRx2E" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.68LCmQ9Vlf3" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6RRAvyZPsPg" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5dO7fUiJPnz" displaytext="Pencatatan Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6k2x2VX2bOj" displaytext="Perhatikan akun-akun berikut ini!&#xA;1. Pemakaian perlengkapan&#xA;2. Penyusutan peralatan&#xA;3. Pembayaran beban gaji&#xA;4. Penerimaan pendapatan&#xA;Transaksi yang memerlukan penyesuaian ditunjukkan oleh nomor….." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5VB34Gtzel0" displaytext="Bentuk Jurnal Penyesuaian" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.67SWUV7NOBo" displaytext="Rangkuman" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5WMkhvbEYN0" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6R3J8byNrXU" displaytext="Tugas andiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6Ovw5RTgLmz" displaytext="Tugas Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5Ybj4hNnhud" displaytext="Tahap Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6YPM2iOlLls" displaytext="Berikut ini akun yang terdapat pada kertas kerja kolom neraca sisi debit adalah…" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5ewigrjkDo5" displaytext="Tujuan Penyusunanan Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5hZJoNt6zBV" displaytext="Prosedur Penyusunan Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6TrNA5YGvJl" displaytext="Prosedur Penyusunan Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6rYr9BoYAox" displaytext="Prosedur Penyusunan Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6GK4ZqVjmHy" displaytext="Seorang akuntan tidak akan dapat membuat kertas kerja ketika datanya belum tersedia. Data yang diperlukan akuntan dalam membuat kertas kerja adalah….." expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.64a8t1gW7Dl" displaytext="Bentuk Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5wv8BHOAgAt" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6W3B3a232K3" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6bRzGLrJBJp" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6cQjFwMoHo5" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6P5yUJFpuFv" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.68QJD9usYVM" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5qNQlVrPj1x" displaytext="Contoh Kertas Kerja" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5sVe4YoeKTu" displaytext="Rangkuman" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5VRD0Tdh9O3" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6KJ4i6Nkgny" displaytext="Tugas Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5neG4GKp8tS" displaytext="Tugas Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5nmjnA0sWKm" displaytext="Daftar Pustaka" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6hR74tbk1SI" displaytext="Daftar Pustaka" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5tbZBtpV72e" displaytext="Daftar Pustaka" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6pDFzIyl1Bj" displaytext="Daftar Pustaka" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6Ktq29lFngQ" displaytext="Tahap Pelaporan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6UuEyhijlKL" displaytext="Komponen Laporan Laba Rugi" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5mAMIaw0M4n" displaytext="Bentuk Laporan Laba Rugi" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6eLPcWeJTPE" displaytext="Bentuk Laporan Laba Rugi" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6GwiQiuHngY" displaytext="Bentuk Laporan Laba Rugi" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6QfI0xxuHEx" displaytext="Laporan Posisi Keuangan" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6dOWWthl17C" displaytext="Rangkuman" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.6K98ZmuALQy" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5ZY8oFejXUj" displaytext="Tugas Mandiri" expand="false" type="slide" />
+            <slidelink slideid="_player.63cuWaMHKu5.5hmBsMqBkPT" displaytext="Tugas Mandiri" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
